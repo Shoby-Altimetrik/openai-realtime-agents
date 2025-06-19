@@ -36,7 +36,6 @@ const sdkScenarioMap: Record<string, RealtimeAgent[]> = {
 };
 
 import useAudioDownload from "./hooks/useAudioDownload";
-import { v4 as uuidv4 } from "uuid";
 
 function App() {
   const searchParams = useSearchParams()!;
