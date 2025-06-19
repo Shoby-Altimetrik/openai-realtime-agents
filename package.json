@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "twilio:server": "ts-node scripts/twilioServer.ts"
+    "twilio:server": "node scripts/twilioServer.js"
   },
   "dependencies": {
     "@openai/agents": "^0.0.1",
